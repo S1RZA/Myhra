@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif
+}
+
+main{
+    background-color: #c2c8cc;
+}
+
+.header-information{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header{
+    background-color: #c2c8cc;
+    height: auto;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 20px;
+    height: 20px;
+    padding: 17px;
+}
+
+.header-logos{
+    padding: 80px;
+}
+
+.menu-and-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    margin-top: 35px;
+    margin-right: 50px;
+}
+
+.menu-list li{
+    list-style-type:none;
+    display: inline;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.menu-list{
+    margin-top: 25px;
+}
+
+.login-and-button{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    border: solid 1px black;
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
+
+.about-presentation{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 0;
+    margin: 0;
+    margin-bottom: 140px;
+}
+
+.image-about{
+    width: 600px;
+    height: 800px;
+    margin-left: 50px;
+}
+
+.paragraphs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 110px;
+}
+
+.myhra-title{
+    font-size: 42px;
+}
+
+.first-paragraph{
+    font-size: 28px;
+}
+
+.second-paragraph{
+    font-size:22px;
+}
+
+.button-about{
+    border: solid 1px black;
+    padding: 30px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+}
+
+.line{
+    margin-bottom: 60px;
+    width: 80%;
+    border-color: rgba(39, 39, 39, 0.822);
+}
+
+.Line{
+    display: grid;
+    place-items:center;
+}
+
+.paragraphs-section{
+    display: flex;
+    gap: 2rem;
+    margin-left: 220px;
+    font-size: 20px;
+    margin-bottom: 140px;
+
+}
+
+.first-paragraph-2{
+    padding-bottom:80px ;
+    line-height: 40px;
+
+}
+
+.mini-paragrahps{
+    display: flex;
+    gap: 50px;
+    line-height: 30px;
+}
+
+.mini-paragrahps small{
+    font-size: 18x;
+}
+
+.footer{
+    background-color:#c2c8cc;
+}
+
+.footer-title{
+    font-size: 32px;
+}
+
+.input-field{
+    border: none;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.footer-button{
+    border: solid 1px black;
+    padding: 25px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+
+}
+
+.form{
+   display: inline-block;
+}
+
+.footer-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 40px;
+
+}
+
+
